@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "chromeSS": "node chrome.js",
-    "iphoneSS": "node iphone.js",
-    "safariSS": "node safari.js",
-    "searchSS": "node search.js"
+    "start": "",
+    "chromeSS": "node ./src/chrome.js",
+    "iphoneSS": "node ./src/iphone.js",
+    "safariSS": "node ./src/safari.js",
+    "searchSS": "node ./src/search.js"
   },
   "author": "hy-shimizu",
   "license": "ISC",
